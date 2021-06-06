@@ -1,3 +1,3 @@
 FROM alpine
-RUN apk add php
+RUN apt add php
 COPY src src
