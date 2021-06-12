@@ -6,7 +6,7 @@ services:
              constraints:
                - node.role -- worker
              replicas: 2
-         image: index.docker.io/rodqasolutionsg/simplilearn-phpinfo:latest
+         image: index.docker.io/pick2atl21/simplilearn-phpinfo-2021-06
          ports:
              - 80:8080
  version: '3.8'
